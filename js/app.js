@@ -139,9 +139,11 @@ $(window).scroll(function(){
 
 			// console.log();
 
-				var scrtop=$(document).scrollTop();
-		console.log(scrtop);
-			$(".topbar").text(scrtop);
+		var scrtop=$(document).scrollTop();
+		// to check in console
+		// console.log(scrtop); 
+		// to display in paragraph with class topbar
+			// $(".topbar").text(scrtop);
 
 		if(scrtop>=520){
 			$(".section1").addClass("navbar-fixed-top");
